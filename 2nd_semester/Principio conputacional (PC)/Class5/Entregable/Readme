@@ -1,0 +1,8 @@
+Create something that calculates the number e up to a precision that we are going to tell it
+The program will ask me for the maximum error to comment, I will say "I want to calculate the number e with an error of one 
+thousandth (0.001)", it will calculate one term, and then the next, and then the next and so on.
+The error will always be less than the last term that I have calculated with the addition of fractions formula 
+with the factorial.
+
+e = 1/0! +1/1! +1/2! +1/3! +1/4!
+This last one is 1/24, if it is less than 0.001, I stop, if not, I add another
